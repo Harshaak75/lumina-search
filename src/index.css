@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Radial gradient utility */
+.bg-gradient-radial {
+  background: radial-gradient(circle at center, var(--tw-gradient-stops));
+}
+
 @layer base {
   :root {
     /* Core palette - Calm, intelligent, Google-inspired */

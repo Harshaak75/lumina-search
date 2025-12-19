@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import { ParticleBackground } from '@/components/ParticleBackground';
+import { InteractiveBackground } from '@/components/InteractiveBackground';
+import { FuturisticHeader } from '@/components/FuturisticHeader';
 import { Button } from '@/components/ui/button';
 import { Brain, Layers, Eye, Award, ArrowRight, Sparkles } from 'lucide-react';
 
@@ -62,7 +63,8 @@ export default function LandingPage() {
 
   return (
     <div className="min-h-screen bg-background">
-      <ParticleBackground />
+      <InteractiveBackground />
+      <FuturisticHeader />
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center px-6">

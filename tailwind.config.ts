@@ -82,6 +82,7 @@ export default {
         'soft-lg': 'var(--shadow-lg)',
         'soft-xl': 'var(--shadow-xl)',
         'glow': 'var(--shadow-glow)',
+        'glow-sm': '0 0 20px hsl(var(--primary) / 0.3)',
       },
       keyframes: {
         "accordion-down": {
